@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recursive Vertical 1s</title>
+    <style>
+        body {
+            font-size: 3em;
+            line-height: 1.2em;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="content">1</div>
+    <script>
+        const content = document.getElementById('content');
+        setInterval(() => {
+            content.innerHTML += '<br>1';
+        }, 500); // Adds a new '1' every 500 milliseconds
+    </script>
+</body>
+</html>
+
